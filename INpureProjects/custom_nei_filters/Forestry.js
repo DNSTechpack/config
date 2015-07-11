@@ -1,0 +1,30 @@
+if (FML.isModLoaded("Forestry")){
+	NEI.hide("Forestry:crated*");
+	NEI.hide("Forestry:leaves");
+	NEI.hide("Forestry:pods");
+	NEI.hide("Forestry:slabs*");
+	NEI.hide("Forestry:planks*");
+	NEI.hide("Forestry:fireproof*");
+	NEI.hide("Forestry:fences*");
+	NEI.hide("Forestry:stairs*");
+	NEI.hide("Forestry:caterpillarGE");
+	NEI.hide("Forestry:serumGE");
+	NEI.hide("Forestry:beeLarvaeGE");
+	NEI.hide("Forestry:beeDroneGE");
+	NEI.hide("Forestry:beePrincessGE");
+	NEI.hide("Forestry:*Ethanol");
+	NEI.hide("Forestry:*BioMass");
+	NEI.hide("Forestry:*Honey");
+	NEI.hide("Forestry:*Ice");
+	NEI.hide("Forestry:*Juice");
+	NEI.hide("Forestry:*SeedOil");
+	NEI.hide("Forestry:*Water");
+	NEI.hide("Forestry:*Lava");
+	NEI.hide("Forestry:*Fuel");
+	NEI.hide("Forestry:*Oil");
+	NEI.hide("Forestry:mushroom");
+	NEI.hide("Forestry:beehives");
+	NEI.hide("ExtraBees:hive");
+	NEI.hide("ExtraBees:hiveFrame.debug");
+	NEI.override("Forestry:resources", [0]);
+}

@@ -1,0 +1,36 @@
+if (FML.isModLoaded("BiomesOPlenty")){
+	NEI.override("BiomesOPlenty:plants", [5,6,7,8,12,15]);
+	NEI.override("BiomesOPlenty:flowers", [0,1,2,4,5,6,7,8,9,15]);
+	NEI.hide("BiomesOPlenty:stoneFormations");
+	NEI.hide("BiomesOPlenty:willow");
+	NEI.hide("BiomesOPlenty:ivy");
+	NEI.hide("BiomesOPlenty:treeMoss");
+	NEI.hide("BiomesOPlenty:flowerVine");
+	NEI.hide("BiomesOPlenty:wisteria");
+	NEI.hide("BiomesOPlenty:lilyBop");
+	NEI.override("BiomesOPlenty:foliage", [3,7]);
+	NEI.hide("BiomesOPlenty:fruitBop");
+	NEI.hide("BiomesOPlenty:turnip");
+	NEI.override("BiomesOPlenty:coral1", [11]);
+	NEI.hide("BiomesOPlenty:coral2");
+	NEI.hide("BiomesOPlenty:*Grass");
+	NEI.hide("BiomesOPlenty:*Dirt");
+	NEI.hide("BiomesOPlenty:leaves*");
+	NEI.hide("BiomesOPlenty:petals");
+	NEI.hide("BiomesOPlenty:saplings");
+	NEI.hide("BiomesOPlenty:colorizedSaplings");
+	NEI.hide("BiomesOPlenty:hardSand");
+	NEI.hide("BiomesOPlenty:biomeBlock");
+	NEI.override("BiomesOPlenty:gemOre", [0,1,3,5,6,7,8,9,10,11,13,14,15]);
+	NEI.hide("BiomesOPlenty:cragRock");
+	NEI.hide("BiomesOPlenty:honeyBlock");
+	NEI.hide("BiomesOPlenty:grave");
+	NEI.hide("BiomesOPlenty:colorizedLeaves*");
+	NEI.hide("BiomesOPlenty:hell_blood");
+	NEI.hide("BiomesOPlenty:bopBucket");
+	NEI.hide("BiomesOPlenty:record*");
+	NEI.hide("BiomesOPlenty:biomeEssence");
+	NEI.hide("BiomesOPlenty:flippers");
+	NEI.hide("BiomesOPlenty:wadingBoots");
+	NEI.override("BiomesOPlenty:misc", [0,1,2,3,4,5,6,7,8,9,10,11]);
+}

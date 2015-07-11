@@ -1,0 +1,183 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "DNS_Techpack/logo.png",
+            "xPos": 155,
+            "yPos": -16,
+            "width": 100.0,
+            "height": 45.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Welcome to the DNS Techpack",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 43,
+            "yPos": 30,
+            "width": 164.0,
+            "height": 2.0
+          }
+        },
+        {
+          "type": "FeatureBox",
+          "properties": {
+            "color": "FF000000",
+            "xPos": 43,
+            "yPos": 38,
+            "width": 145.0,
+            "height": 2.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "      Thanks for playing DNS\n\n   We hope you enjoy yourself",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 33,
+            "yPos": 55,
+            "width": 181.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "  If you have any questions, suggestions or the like, please       don\u0027t hesitate to contact us       over at our website or on IRC",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 40,
+            "yPos": 98,
+            "width": 171.0,
+            "height": 36.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "www.dnstechpack.com",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 95,
+            "yPos": 151,
+            "width": 123.0,
+            "height": 5.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Website:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFB22222",
+            "xPos": 34,
+            "yPos": 151,
+            "width": 56.0,
+            "height": 6.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "IRC:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFB22222",
+            "xPos": 54,
+            "yPos": 174,
+            "width": 26.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "#DNS\nirc.esper.net",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 95,
+            "yPos": 174,
+            "width": 107.0,
+            "height": 26.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Get to Know the Staff",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 263,
+            "yPos": 30,
+            "width": 125.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureBox",
+          "properties": {
+            "color": "FF000000",
+            "xPos": 263,
+            "yPos": 38,
+            "width": 107.0,
+            "height": 2.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "madcock83\n\nIAmOmicron\n\n  Wolf68k",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 290,
+            "yPos": 54,
+            "width": 63.0,
+            "height": 49.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "   This book is a Work In Progress. More content will     be added in due course.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFB22222",
+            "xPos": 249,
+            "yPos": 165,
+            "width": 145.0,
+            "height": 26.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "DNS_Techpack",
+  "color": 22784,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_GB",
+  "displayName": "DNS Techpack",
+  "displayInCreative": true
+}
