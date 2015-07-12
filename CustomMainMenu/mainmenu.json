@@ -235,10 +235,12 @@
     {		
 		"dns":
         {
-            "text" : "§2DNS Techpack 7.7.0.2",
-			"hoverText": "§aDNS Techpack 7.7.0.2",
+            "text" : "DNS Techpack 7.7.0.0",
+			"hoverText": "DNS Techpack 7.7.0.0",
             "posX" : 2,
             "posY" : -25,
+			"color" : 43520,
+			"hoverColor" : 5635925,
 			"action" :
 				{
 					"type" : "openLink",
@@ -248,17 +250,21 @@
         },
 		"by":
         {
-            "text" : "§3By:",
+            "text" : "By:",
             "posX" : 2,
             "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 43690,
             "alignment" : "bottom_left"
         },
 		"madcock":
         {
-            "text" : "§3Madcock83",
-			"hoverText" : "§bMadcock83",
+            "text" : "Madcock83",
+			"hoverText" : "Madcock83",
             "posX" : 20,
             "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 5636095,
 			"action" :
 				{
 					"type" : "openLink",
@@ -268,17 +274,21 @@
         },
 		"comma1":
         {
-            "text" : "§3,",
+            "text" : ",",
             "posX" : 74,
             "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 43690,
             "alignment" : "bottom_left"
         },
 		"IAmOmicron":
         {
-            "text" : "§3IAmOmicron",
-			"hoverText" : "§bIAmOmicron",
+            "text" : "IAmOmicron",
+			"hoverText" : "IAmOmicron",
             "posX" : 80,
             "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 5636095,
 			"action" :
 				{
 					"type" : "openLink",
@@ -288,17 +298,21 @@
 		},
 		"comma2":
         {
-            "text" : "§3,",
+            "text" : ",",
             "posX" : 135,
             "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 43690,
             "alignment" : "bottom_left"
         },
 		"Wolf68k":
         {
-            "text" : "§3Wolf68k",
-			"hoverText" : "§bWolf68k",
+            "text" : "Wolf68k",
+			"hoverText" : "Wolf68k",
             "posX" : 140,
             "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 5636095,
 			"action" :
 				{
 					"type" : "openLink",
@@ -313,7 +327,7 @@
         "splash-text":{  
             "posX":-70,
             "posY":60,
-            "color":000255000,
+            "color":65280,
             "alignment":"top_right"
         },
 		
