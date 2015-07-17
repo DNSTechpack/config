@@ -1,0 +1,343 @@
+{
+    "images":
+    {
+        "footer":
+        {
+            "image" : "dns:textures/footer.png",
+            "posX" : 0,
+            "posY" : -30,
+            "width" : 2000,
+            "height" : 30,
+            "alignment" : "bottom_left"
+        },
+		"menuoutline":
+        {
+            "image" : "dns:textures/menu.png",
+            "posX" : -110,
+            "posY" : -1030,
+            "width" : 220,
+            "height" : 1000,
+            "alignment" : "bottom_center"
+        },
+		
+		"logo":
+        {
+            "image" : "dns:textures/logo.png",
+            "posX" : -90,
+            "posY" : 15,
+            "width" : 170,
+            "height" : 80,
+			"alignment" : "top_center"
+        }
+    },
+   
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : -180,
+            "width" : 200,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "texture":"dns:textures/button.png",
+			"alignment" : "bottom_center",
+			"hoverTextColor":000255000,
+			"pressSound":"menu:sounds/press.ogg",
+			"hoverSound":"menu:sounds/hover.ogg",
+			"action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+       
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : -155,
+            "width" : 200,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "texture":"dns:textures/button.png",
+            "alignment" : "bottom_center",
+			"hoverTextColor":000255000,
+			"action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+       
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : -100,
+            "posY" : -130,
+            "width" : 100,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "texture":"dns:textures/button.png",
+            "alignment" : "bottom_center",
+			"hoverTextColor":000255000,
+			"action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+           
+        "options":
+        {
+            "text" : "Options",
+            "posX" : 0,
+            "posY" : -130,
+            "width" : 100,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "texture":"dns:textures/button.png",
+            "alignment" : "bottom_center",
+			"hoverTextColor":000255000,
+			"action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+       
+        "quit":
+        {
+            "text" : "Quit",
+            "posX" : -100,
+            "posY" : -105,
+            "width" : 200,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "texture":"dns:textures/quit.png",
+            "alignment" : "bottom_center",
+			"hoverTextColor":000255000,
+			"action" :
+            {
+                "type" : "quit"
+            }
+        },
+       
+        "language":
+        {
+            "text" : "",
+            "posX" : -100,
+            "posY" : -80,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "texture":"dns:textures/language.png",
+            "alignment" : "bottom_center",
+			"action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+       
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 80,
+            "posY" : -80,
+            "width" : 20,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200,
+            "alignment" : "bottom_center",
+			"texture" : "dns:textures/refresh.png",
+			"action" :
+            {
+                "type" : "refresh"
+            }
+        },
+		
+		"openeye":
+		{
+			"wrappedButton" : 666,
+			"alignment":"bottom_center",
+			"texture" : "dns:textures/openeye.png",
+			"text" : "",
+			"posX" : -10,
+			"posY" : -80,
+			"width" : 20,
+            "height" : 20,
+			"imageWidth":200,
+			"imageHeight":200
+		},
+		
+        "msd":
+        {
+            "text":"",
+			"posX":-90,
+            "posY":-30,
+            "width":80,
+            "height":30,
+			"imageWidth":315,
+			"imageHeight":110,
+			"texture":"dns:textures/msd.png",
+            "alignment":"bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+					"link" : "https://minecraftserverdeals.com"
+            }
+        },
+		
+		"facebook":
+        {
+            "text":"",
+			"posX":-120,
+            "posY":-28,
+            "width":25,
+            "height":25,
+			"imageWidth":200,
+			"imageHeight":200,
+			"texture":"dns:textures/facebook.png",
+            "alignment":"bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+					"link" : "https://www.facebook.com/pages/DNS-Techpack/196700523809130"
+            }
+        },
+	
+		"twitter":
+        {
+            "text":"",
+			"posX":-150,
+            "posY":-28,
+            "width":25,
+            "height":25,
+			"imageWidth":200,
+			"imageHeight":200,
+			"texture":"dns:textures/twitter.png",
+            "alignment":"bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                                "link" : "https://www.twitter.com/DNSTechpack"
+            }
+        }
+	},
+   
+    "texts":
+    {		
+		"dns":
+        {
+            "text" : "DNS Techpack 7.7.0.0",
+			"hoverText": "DNS Techpack 7.7.0.0",
+            "posX" : 2,
+            "posY" : -25,
+			"color" : 43520,
+			"hoverColor" : 5635925,
+			"action" :
+				{
+					"type" : "openLink",
+						"link" : "http://dnstechpack.com"
+				},
+            "alignment" : "bottom_left"
+        },
+		"by":
+        {
+            "text" : "By:",
+            "posX" : 2,
+            "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 43690,
+            "alignment" : "bottom_left"
+        },
+		"madcock":
+        {
+            "text" : "Madcock83",
+			"hoverText" : "Madcock83",
+            "posX" : 20,
+            "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 5636095,
+			"action" :
+				{
+					"type" : "openLink",
+						"link" : "http://twitter.com/TheRealMadCck"
+				},
+            "alignment" : "bottom_left"
+        },
+		"comma1":
+        {
+            "text" : ",",
+            "posX" : 74,
+            "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 43690,
+            "alignment" : "bottom_left"
+        },
+		"IAmOmicron":
+        {
+            "text" : "IAmOmicron",
+			"hoverText" : "IAmOmicron",
+            "posX" : 80,
+            "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 5636095,
+			"action" :
+				{
+					"type" : "openLink",
+						"link" : "http://twitter.com/IAmOmicron"
+				},
+            "alignment" : "bottom_left"
+		},
+		"comma2":
+        {
+            "text" : ",",
+            "posX" : 135,
+            "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 43690,
+            "alignment" : "bottom_left"
+        },
+		"Wolf68k":
+        {
+            "text" : "Wolf68k",
+			"hoverText" : "Wolf68k",
+            "posX" : 140,
+            "posY" : -15,
+			"color" : 43690,
+			"hoverColor" : 5636095,
+			"action" :
+				{
+					"type" : "openLink",
+						"link" : "http://twitter.com/Wolf68k"
+				},
+            "alignment" : "bottom_left"
+		}
+    },
+   
+    "other":
+    {
+        "splash-text":{  
+            "posX":-70,
+            "posY":60,
+            "color":65280,
+            "alignment":"top_right"
+        },
+		
+		"panorama":
+        {
+            "images" : "dns:background/panorama_%c.png",
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}

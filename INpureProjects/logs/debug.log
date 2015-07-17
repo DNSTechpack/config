@@ -39,10 +39,10 @@ Found creative tab: decorations
 Found creative tab: enchiridion
 Found creative tab: EnderIO
 Found creative tab: arboriculture
+Found creative tab: lepidopterology
 Found creative tab: extraUtil
 Found creative tab: extraUtil_FMP
 Found creative tab: forestry
-Found creative tab: lepidopterology
 Found creative tab: tabGyth
 Found creative tab: Genetics
 Found creative tab: gcewing_lighting:tab
@@ -98,6 +98,7 @@ Found creative tab: thaumcraft
 Found creative tab: ThaumicTinkerer
 Found creative tab: brewing
 Found creative tab: thermaldynamics.creativeTab
+Found creative tab: thermaldynamics.creativeTabCovers
 Found creative tab: thermalexpansion.creativeTabBlocks
 Found creative tab: thermalexpansion.creativeTabItems
 Found creative tab: thermalexpansion.creativeTabTools
@@ -115,6 +116,7 @@ Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
 Found creative tab: betterstorage
 Found creative tab: tabWoodChiselBlocks
+Found creative tab: tabStairChiselBlocks
 Found creative tab: tabModdedChiselBlocks
 Found creative tab: tabStoneChiselBlocks
 Found creative tab: tabOtherChiselBlocks
@@ -155,8 +157,8 @@ Bootstrap setting found. Loading: Bootstrap.js
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2976
-override called. Params: appliedenergistics2, item.ItemFacade, 669
+getNumberOfTypes called. Returned: 2990
+override called. Params: appliedenergistics2, item.ItemFacade, 449
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 override called. Params: appliedenergistics2, item.ToolC*, 0
@@ -566,8 +568,8 @@ hide called. Params: BiblioWoodsForestry, BiblioWoodMapFrame2
 Regex match found! BiblioWoodsForestry:BiblioWoodMapFrame2 matches BiblioWoodsForestry:BiblioWoodMapFrame2.
 Found ItemStack BiblioWoodsForestry:BiblioWoodMapFrame2. 64xtile.BiblioWoodMapFrame2@0
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 4054
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3265
+getFacadesSize called. Returned: 4085
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1303
 hide called. Params: BuildCraft|Energy, blockRedPlasma
 Regex match found! BuildCraft|Energy:blockRedPlasma matches BuildCraft|Energy:blockRedPlasma.
 Found ItemStack BuildCraft|Energy:blockRedPlasma. 64xtile.blockRedPlasma@0
@@ -602,11 +604,11 @@ Found ItemStack ExtraUtilities:lawSword. 1xitem.extrautils:lawSword@0
 hide called. Params: ExtraUtilities, pureLove
 Regex match found! ExtraUtilities:pureLove matches ExtraUtilities:pureLove.
 Found ItemStack ExtraUtilities:pureLove. 64xtile.extrautils:pureLove@0
-getRandomMaterial called. Returned: Mekanism:BasicBlock_12
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Mekanism:BasicBlock_12
+getRandomMaterial called. Returned: Mekanism:BasicBlock2
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Mekanism:BasicBlock2
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: Mekanism:BasicBlock_7
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_7
+getRandomMaterial called. Returned: Mekanism:BasicBlock2
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock2
 Loading: MFR.js
 override called. Params: MineFactoryReloaded, stainedglass.block, 0
 Regex match found! MineFactoryReloaded:stainedglass.block matches MineFactoryReloaded:stainedglass.block.
@@ -965,7 +967,7 @@ Regex match found! ThermalExpansion:Strongbox matches ThermalExpansion:Strongbox
 Found ItemStack ThermalExpansion:Strongbox. 1xtile.thermalexpansion.strongbox@0
 override called. Params: ThermalExpansion, Tank, 1,2,3,4
 Regex match found! ThermalExpansion:Tank matches ThermalExpansion:Tank.
-Found ItemStack ThermalExpansion:Tank. 64xtile.thermalexpansion.tank@0
+Found ItemStack ThermalExpansion:Tank. 1xtile.thermalexpansion.tank@0
 override called. Params: ThermalExpansion, Cache, 1,2,3,4
 Regex match found! ThermalExpansion:Cache matches ThermalExpansion:Cache.
 Found ItemStack ThermalExpansion:Cache. 1xtile.thermalexpansion.cache@0
@@ -1373,6 +1375,7 @@ Regex match found! Botania:*Slab*Full matches Botania:dirtPath0SlabFull.
 Regex match found! Botania:*Slab*Full matches Botania:dreamwood0SlabFull.
 Regex match found! Botania:*Slab*Full matches Botania:dreamwood1SlabFull.
 Regex match found! Botania:*Slab*Full matches Botania:endStoneBrick0SlabFull.
+Regex match found! Botania:*Slab*Full matches Botania:endStoneBrick2SlabFull.
 Regex match found! Botania:*Slab*Full matches Botania:livingrock0SlabFull.
 Regex match found! Botania:*Slab*Full matches Botania:livingrock1SlabFull.
 Regex match found! Botania:*Slab*Full matches Botania:livingwood0SlabFull.
@@ -1429,6 +1432,7 @@ Found ItemStack Botania:dirtPath0SlabFull. 64xtile.dirtPath0SlabFull@0
 Found ItemStack Botania:dreamwood0SlabFull. 64xtile.dreamwood0SlabFull@0
 Found ItemStack Botania:dreamwood1SlabFull. 64xtile.dreamwood1SlabFull@0
 Found ItemStack Botania:endStoneBrick0SlabFull. 64xtile.endStoneBrick0SlabFull@0
+Found ItemStack Botania:endStoneBrick2SlabFull. 64xtile.endStoneBrick2SlabFull@0
 Found ItemStack Botania:livingrock0SlabFull. 64xtile.livingrock0SlabFull@0
 Found ItemStack Botania:livingrock1SlabFull. 64xtile.livingrock1SlabFull@0
 Found ItemStack Botania:livingwood0SlabFull. 64xtile.livingwood0SlabFull@0
@@ -1486,6 +1490,7 @@ Regex match found! Botania:*SlabFull matches Botania:dirtPath0SlabFull.
 Regex match found! Botania:*SlabFull matches Botania:dreamwood0SlabFull.
 Regex match found! Botania:*SlabFull matches Botania:dreamwood1SlabFull.
 Regex match found! Botania:*SlabFull matches Botania:endStoneBrick0SlabFull.
+Regex match found! Botania:*SlabFull matches Botania:endStoneBrick2SlabFull.
 Regex match found! Botania:*SlabFull matches Botania:livingrock0SlabFull.
 Regex match found! Botania:*SlabFull matches Botania:livingrock1SlabFull.
 Regex match found! Botania:*SlabFull matches Botania:livingwood0SlabFull.
@@ -1535,6 +1540,7 @@ Found ItemStack Botania:dirtPath0SlabFull. 64xtile.dirtPath0SlabFull@0
 Found ItemStack Botania:dreamwood0SlabFull. 64xtile.dreamwood0SlabFull@0
 Found ItemStack Botania:dreamwood1SlabFull. 64xtile.dreamwood1SlabFull@0
 Found ItemStack Botania:endStoneBrick0SlabFull. 64xtile.endStoneBrick0SlabFull@0
+Found ItemStack Botania:endStoneBrick2SlabFull. 64xtile.endStoneBrick2SlabFull@0
 Found ItemStack Botania:livingrock0SlabFull. 64xtile.livingrock0SlabFull@0
 Found ItemStack Botania:livingrock1SlabFull. 64xtile.livingrock1SlabFull@0
 Found ItemStack Botania:livingwood0SlabFull. 64xtile.livingwood0SlabFull@0
