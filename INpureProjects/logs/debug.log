@@ -31,6 +31,7 @@ Found creative tab: buildcraft.pipes
 Found creative tab: buildcraft.boards
 Found creative tab: buildcraft.facades
 Found creative tab: buildcraft.gates
+Found creative tab: Calculator
 Found creative tab: CarpentersBlocks
 Found creative tab: compactmachines
 Found creative tab: combat
@@ -81,7 +82,6 @@ Found creative tab: railcraft
 Found creative tab: Random Things
 Found creative tab: redstonearsenal.creativeTab
 Found creative tab: solarexpansion
-Found creative tab: solarflux
 Found creative tab: sfm
 Found creative tab: SC2Blocks
 Found creative tab: SC2Modules
@@ -112,6 +112,7 @@ Found creative tab: twilightForest
 Found creative tab: ztones
 Found creative tab: bdew.generators
 Found creative tab: bdew.ae2stuff
+Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
 Found creative tab: betterstorage
@@ -157,8 +158,8 @@ Bootstrap setting found. Loading: Bootstrap.js
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 2990
-override called. Params: appliedenergistics2, item.ItemFacade, 681
+getNumberOfTypes called. Returned: 3014
+override called. Params: appliedenergistics2, item.ItemFacade, 2559
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 override called. Params: appliedenergistics2, item.ToolC*, 0
@@ -568,8 +569,8 @@ hide called. Params: BiblioWoodsForestry, BiblioWoodMapFrame2
 Regex match found! BiblioWoodsForestry:BiblioWoodMapFrame2 matches BiblioWoodsForestry:BiblioWoodMapFrame2.
 Found ItemStack BiblioWoodsForestry:BiblioWoodMapFrame2. 64xtile.BiblioWoodMapFrame2@0
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 4104
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3978
+getFacadesSize called. Returned: 4147
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 4116
 hide called. Params: BuildCraft|Energy, blockRedPlasma
 Regex match found! BuildCraft|Energy:blockRedPlasma matches BuildCraft|Energy:blockRedPlasma.
 Found ItemStack BuildCraft|Energy:blockRedPlasma. 64xtile.blockRedPlasma@0
@@ -604,11 +605,11 @@ Found ItemStack ExtraUtilities:lawSword. 1xitem.extrautils:lawSword@0
 hide called. Params: ExtraUtilities, pureLove
 Regex match found! ExtraUtilities:pureLove matches ExtraUtilities:pureLove.
 Found ItemStack ExtraUtilities:pureLove. 64xtile.extrautils:pureLove@0
-getRandomMaterial called. Returned: Mekanism:BasicBlock_11
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Mekanism:BasicBlock_11
+getRandomMaterial called. Returned: Mekanism:CardboardBox
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Mekanism:CardboardBox
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: Mekanism:BasicBlock
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock
+getRandomMaterial called. Returned: Mekanism:BasicBlock_3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_3
 Loading: MFR.js
 override called. Params: MineFactoryReloaded, stainedglass.block, 0
 Regex match found! MineFactoryReloaded:stainedglass.block matches MineFactoryReloaded:stainedglass.block.
