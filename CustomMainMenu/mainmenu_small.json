@@ -237,8 +237,8 @@
     {		
 		"dns":
         {
-            "text" : "DNS Techpack 7.7.0.0",
-			"hoverText": "DNS Techpack 7.7.0.0",
+            "text" : "DNS Techpack 7.7.1.1",
+			"hoverText": "DNS Techpack 7.7.1.1",
             "posX" : 2,
             "posY" : -25,
 			"color" : 43520,
@@ -270,7 +270,7 @@
 			"action" :
 				{
 					"type" : "openLink",
-						"link" : "http://twitter.com/TheRealMadCck"
+						"link" : "http://twitter.com/TheRealMadCock"
 				},
             "alignment" : "bottom_left"
         },

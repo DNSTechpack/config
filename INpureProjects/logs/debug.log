@@ -159,7 +159,7 @@ Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
 getNumberOfTypes called. Returned: 3014
-override called. Params: appliedenergistics2, item.ItemFacade, 2559
+override called. Params: appliedenergistics2, item.ItemFacade, 1449
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 override called. Params: appliedenergistics2, item.ToolC*, 0
@@ -570,7 +570,7 @@ Regex match found! BiblioWoodsForestry:BiblioWoodMapFrame2 matches BiblioWoodsFo
 Found ItemStack BiblioWoodsForestry:BiblioWoodMapFrame2. 64xtile.BiblioWoodMapFrame2@0
 Loading: BuildCraft.js
 getFacadesSize called. Returned: 4147
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 4116
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 3842
 hide called. Params: BuildCraft|Energy, blockRedPlasma
 Regex match found! BuildCraft|Energy:blockRedPlasma matches BuildCraft|Energy:blockRedPlasma.
 Found ItemStack BuildCraft|Energy:blockRedPlasma. 64xtile.blockRedPlasma@0
@@ -605,11 +605,11 @@ Found ItemStack ExtraUtilities:lawSword. 1xitem.extrautils:lawSword@0
 hide called. Params: ExtraUtilities, pureLove
 Regex match found! ExtraUtilities:pureLove matches ExtraUtilities:pureLove.
 Found ItemStack ExtraUtilities:pureLove. 64xtile.extrautils:pureLove@0
-getRandomMaterial called. Returned: Mekanism:CardboardBox
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Mekanism:CardboardBox
+getRandomMaterial called. Returned: Mekanism:BasicBlock_11
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Mekanism:BasicBlock_11
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: Mekanism:BasicBlock_3
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_3
+getRandomMaterial called. Returned: Mekanism:BasicBlock_10
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Mekanism:BasicBlock_10
 Loading: MFR.js
 override called. Params: MineFactoryReloaded, stainedglass.block, 0
 Regex match found! MineFactoryReloaded:stainedglass.block matches MineFactoryReloaded:stainedglass.block.
@@ -2209,10 +2209,10 @@ Found ItemStack EnderIO:item.darkSteel_helmet. 1xitem.darkSteel_helmet@0
 Found ItemStack EnderIO:item.darkSteel_leggings. 1xitem.darkSteel_leggings@0
 Found ItemStack EnderIO:item.darkSteel_pickaxe. 1xitem.darkSteel_pickaxe@0
 Found ItemStack EnderIO:item.darkSteel_sword. 1xitem.darkSteel_sword@0
-override called. Params: EnderIO, itemTravelStaff, 0
+override called. Params: EnderIO, itemTravelStaff, 16
 Regex match found! EnderIO:itemTravelStaff matches EnderIO:itemTravelStaff.
 Found ItemStack EnderIO:itemTravelStaff. 1xitem.itemTravelStaff@0
-override called. Params: EnderIO, itemMagnet, 0
+override called. Params: EnderIO, itemMagnet, 16
 Regex match found! EnderIO:itemMagnet matches EnderIO:itemMagnet.
 Found ItemStack EnderIO:itemMagnet. 1xitem.itemMagnet@0
 override called. Params: EnderIO, blockDarkSteelAnvil, 0

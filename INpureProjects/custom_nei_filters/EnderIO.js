@@ -1,7 +1,7 @@
 if (FML.isModLoaded("EnderIO")){
 	NEI.override("EnderIO:item.darkSteel_*", [0]);
-	NEI.override("EnderIO:itemTravelStaff", [0]);
-	NEI.override("EnderIO:itemMagnet", [0]);
+	NEI.override("EnderIO:itemTravelStaff", [16]);
+	NEI.override("EnderIO:itemMagnet", [16]);
 	NEI.override("EnderIO:blockDarkSteelAnvil", [0]);
 	NEI.override("EnderIO:blockPoweredSpawner", [0]);
 	NEI.override("EnderIO:itemBrokenSpawner", [0]);
