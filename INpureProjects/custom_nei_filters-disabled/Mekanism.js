@@ -1,0 +1,22 @@
+if (FML.isModLoaded("Mekanism")){
+    NEI.override("Mekanism:GasTank", [100]);
+	NEI.override("Mekanism:*PlasticBlock", [0]);
+	NEI.override("Mekanism:Balloon", [0]);
+	NEI.override("Mekanism:GlowPanel", [0]);
+	NEI.override("Mekanism:MachineBlock2", [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]);
+	NEI.override("Mekanism:PlasticFence", [0]);
+	NEI.override("Mekanism:EnergyTablet", [0]);
+	NEI.override("Mekanism:ElectricBow", [0]);
+	NEI.override("Mekanism:Robit", [0]);
+	NEI.override("Mekanism:AtomicDisassembler", [0]);
+	NEI.override("Mekanism:PortableTeleporter", [0]);
+	NEI.override("Mekanism:Configurator", [0]);
+	NEI.override("Mekanism:NetworkReader", [0]);
+	NEI.override("Mekanism:*Jetpack", [0]);
+	NEI.override("Mekanism:ScubaTank", [0]);
+	NEI.override("Mekanism:FreeRunners", [0]);
+	NEI.override("Mekanism:SeismicReader", [0]);
+	NEI.override("Mekanism:Flamethrower", [0]);
+	NEI.override("MekanismGenerators:Hohlraum", [100]);
+	NEI.override("Mekanism:OreBlock", [0]);
+}

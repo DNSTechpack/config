@@ -18,4 +18,19 @@ if (FML.isModLoaded("BiblioCraft") && Bibliocraft_enabled) {
 	NEI.override("BiblioCraft:*MapFrames", [0]);
 	NEI.override("BiblioCraft:*Seats", [0]);
 	NEI.override("BiblioCraft:item.*", [0]);
+	NEI.hide("BiblioCraft:BiblioClipboard");
+	NEI.hide("BiblioCraft:item.TesterItem");
+	NEI.hide("BiblioCraft:item.AtlasPlate");
+	NEI.hide("BiblioCraft:item.PrintPlate");
+	NEI.hide("BiblioCraft:item.EnchantedPlate");
+	NEI.hide("BiblioCraft:BookcaseFilled");
+	NEI.hide("BiblioCraft:*CreativeLock");
+	NEI.override("BiblioWoods*:*", [0]);
+	NEI.hide("BiblioWoodsForestry:BiblioWoodFst*2");
+	NEI.hide("BiblioWoodsForestry:BiblioWoodSeat2");
+	NEI.hide("BiblioWoodsForestry:BiblioWoodFancySign2");
+	NEI.hide("BiblioWoodsForestry:BiblioWoodFancyWorkbench2");
+	NEI.hide("BiblioWoodsForestry:BiblioWoodClock2");
+	NEI.hide("BiblioWoodsForestry:BiblioWoodFstcase1");
+	NEI.hide("BiblioWoodsForestry:BiblioWoodMapFrame2");
 }
